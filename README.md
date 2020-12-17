@@ -159,8 +159,6 @@ Full-duplex/half-duplex = communication en simultané/chacun son tour.
 
 1. Protocole de la couche Applicative (Application, Présentation, Session) : 
 
-[Protocoles](https://www.notion.so/Protocoles-f658d8cc60074d199317fcb417c22252)
-
 ### Qu’est-ce que le modèle OSI
 
 Le modèle OSI (Open Systems Interconnection : « interconnexion de systèmes ouverts ») est une façon standardisée de segmenter en plusieurs blocs le processus de communication entre deux entités. Chaque bloc résultant de cette segmentation est appelé couche
