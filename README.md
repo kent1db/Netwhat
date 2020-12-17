@@ -137,8 +137,6 @@ Utilisé par :
 
 ### Quelles sont les différentes couches d’un réseau
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2af06295-79d6-48e9-b1b5-6e9968525d29/image.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2af06295-79d6-48e9-b1b5-6e9968525d29/image.png)
-
 Le modèle OSI a segmenté la communication en **sept** couches :
 
 1. **Application** (ou couche applicative) : *interface pour accéder aux services réseaux* 
@@ -151,23 +149,11 @@ Le modèle OSI a segmenté la communication en **sept** couches :
 
     *`All People Seem To Need Data Processing` (APSTNDP)*
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cd675ab4-10f6-435e-9b4f-74705f55aea1/Screen_Shot_2020-12-03_at_3.26.16_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cd675ab4-10f6-435e-9b4f-74705f55aea1/Screen_Shot_2020-12-03_at_3.26.16_PM.png)
-
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5560710e-1357-4ba1-ab04-21f6ef5fbb9f/Screen_Shot_2020-12-04_at_12.37.17_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5560710e-1357-4ba1-ab04-21f6ef5fbb9f/Screen_Shot_2020-12-04_at_12.37.17_PM.png)
-
 Les données que vous transmettez sont tout simplement appelées unité de données (data unit : PDU = protocol data unit, précédé de l'initiale de la couche )
 
 Dans la couche réseau du modèle OSI, ces données prennent le nom de paquets ; dans les couches liaison et physique, respectivement ceux de frame (trame) et bit.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a2ac0c4a-c8dd-47ed-bf20-2c4a76fa4ad7/image.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a2ac0c4a-c8dd-47ed-bf20-2c4a76fa4ad7/image.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b5837717-7d0f-46a3-b8a7-fc02852f5a05/image.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b5837717-7d0f-46a3-b8a7-fc02852f5a05/image.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de12cda3-893b-45f4-8dea-568d9528076b/image.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de12cda3-893b-45f4-8dea-568d9528076b/image.png)
-
 Dans une couche C, le PDU est le SDU de la couche C + 1 plus son en-tête (couche C) : encapsulation.
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cd98bda5-2f3a-42a2-8778-81b97baa6cd9/image.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cd98bda5-2f3a-42a2-8778-81b97baa6cd9/image.png)
 
 Full-duplex/half-duplex = communication en simultané/chacun son tour.
 
@@ -196,8 +182,6 @@ Permet de traduire les noms de domaines en adresse IP
 ### Quelles sont les configurations minimales pour faire communiquer 2 appareils en utilisant IP
 
 Ordinateur -> Passerelle(routeur) -> Internet -> Passerelle -> Serveur
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb777906-23cf-45f5-a49f-25e697880c01/image.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb777906-23cf-45f5-a49f-25e697880c01/image.png)
 
 ### Comment marche le routage IP
 
